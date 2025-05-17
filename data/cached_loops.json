@@ -1,0 +1,16 @@
+{
+  "loops": [
+    {
+      "id": "BTC/USDT-ETH/BTC-ETH/USDT",
+      "pairs": [
+        "BTC/USDT",
+        "ETH/BTC",
+        "ETH/USDT"
+      ],
+      "discovered_at": 1747495438.6227474,
+      "metadata": {}
+    }
+  ],
+  "version": 11,
+  "last_updated": 1747495438.622749
+}

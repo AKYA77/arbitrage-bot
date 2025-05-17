@@ -1,0 +1,4 @@
+services:
+- type: web
+  name: arb-bot
+  startCommand: streamlit run dashboard.py

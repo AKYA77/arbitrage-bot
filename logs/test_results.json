@@ -1,0 +1,274 @@
+{
+  "total_tests": 38,
+  "passed": 33,
+  "failed": 2,
+  "skipped": 3,
+  "test_cases": [
+    {
+      "name": "Config - Load API Keys",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238081
+    },
+    {
+      "name": "Config - Default Algorithm Config",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238093
+    },
+    {
+      "name": "Config - Save/Load Algorithm Config",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238098
+    },
+    {
+      "name": "Loop Manager - Add Loop",
+      "passed": false,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238103
+    },
+    {
+      "name": "Loop Manager - Get Loops",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238105
+    },
+    {
+      "name": "Loop Manager - Get Loop Pairs",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.623811
+    },
+    {
+      "name": "Loop Manager - Update/Get Metrics",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238112
+    },
+    {
+      "name": "Loop Manager - Remove Loop",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.623814
+    },
+    {
+      "name": "Graph Algorithms - Johnson's Algorithm",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238146
+    },
+    {
+      "name": "Graph Algorithms - Bellman-Ford Algorithm",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238155
+    },
+    {
+      "name": "Graph Algorithms - Yen's K-Shortest Paths",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238163
+    },
+    {
+      "name": "GateIO Wrapper - Get Order Book",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238172
+    },
+    {
+      "name": "GateIO Wrapper - Get Fee Rate",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.623818
+    },
+    {
+      "name": "GateIO Wrapper - WebSocket URL",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238184
+    },
+    {
+      "name": "GateIO Wrapper - WebSocket Subscribe Message",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238186
+    },
+    {
+      "name": "MEXC Wrapper - Get Order Book",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238194
+    },
+    {
+      "name": "MEXC Wrapper - Get Fee Rate",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238196
+    },
+    {
+      "name": "MEXC Wrapper - WebSocket URL",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.62382
+    },
+    {
+      "name": "MEXC Wrapper - WebSocket Subscribe Message",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238205
+    },
+    {
+      "name": "Phemex Wrapper - Get Order Book",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.623821
+    },
+    {
+      "name": "Phemex Wrapper - Get Fee Rate",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238215
+    },
+    {
+      "name": "Phemex Wrapper - WebSocket URL",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.623822
+    },
+    {
+      "name": "Phemex Wrapper - WebSocket Subscribe Message",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238225
+    },
+    {
+      "name": "Bitget Wrapper - Get Order Book",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238227
+    },
+    {
+      "name": "Bitget Wrapper - Get Fee Rate",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238232
+    },
+    {
+      "name": "Bitget Wrapper - WebSocket URL",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238236
+    },
+    {
+      "name": "Bitget Wrapper - WebSocket Subscribe Message",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238241
+    },
+    {
+      "name": "Basic Scanner - Check Profitability",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238246
+    },
+    {
+      "name": "Optimized Scanner - Scan For Opportunities",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.623825
+    },
+    {
+      "name": "Advanced Scanner - Scan For Opportunities",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238253
+    },
+    {
+      "name": "Advanced Scanner - Loop Cache",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.623826
+    },
+    {
+      "name": "ML Scanner - Import",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238263
+    },
+    {
+      "name": "ML Scanner - Execution",
+      "passed": true,
+      "skipped": true,
+      "error": null,
+      "timestamp": 1747495438.623827
+    },
+    {
+      "name": "Dashboard Tests",
+      "passed": false,
+      "skipped": false,
+      "error": "module 'streamlit' has no attribute 'set_page_config'",
+      "timestamp": 1747495438.6238277
+    },
+    {
+      "name": "Integration - Config with Scanner",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.6238277
+    },
+    {
+      "name": "Integration - Loop Manager with Scanner",
+      "passed": true,
+      "skipped": false,
+      "error": null,
+      "timestamp": 1747495438.623828
+    },
+    {
+      "name": "Integration - WebSocket Functionality",
+      "passed": true,
+      "skipped": true,
+      "error": null,
+      "timestamp": 1747495438.6238282
+    },
+    {
+      "name": "Integration - End-to-End Flow",
+      "passed": true,
+      "skipped": true,
+      "error": null,
+      "timestamp": 1747495438.6238282
+    }
+  ]
+}

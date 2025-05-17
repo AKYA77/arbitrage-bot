@@ -1,0 +1,82 @@
+2025-05-17 11:19:33,631 - test_runner - INFO - Starting test suite
+2025-05-17 11:19:33,631 - test_runner - INFO - Testing configuration module
+2025-05-17 11:19:33,634 - test_runner - INFO - PASSED: Config - Load API Keys
+2025-05-17 11:19:33,634 - test_runner - INFO - PASSED: Config - Default Algorithm Config
+2025-05-17 11:19:33,634 - test_runner - INFO - PASSED: Config - Save/Load Algorithm Config
+2025-05-17 11:19:33,634 - test_runner - INFO - Testing loop manager module
+2025-05-17 11:19:33,636 - test_runner - INFO - PASSED: Loop Manager - Add Loop
+2025-05-17 11:19:33,637 - test_runner - INFO - PASSED: Loop Manager - Get Loops
+2025-05-17 11:19:33,637 - test_runner - INFO - PASSED: Loop Manager - Get Loop Pairs
+2025-05-17 11:19:33,637 - test_runner - INFO - PASSED: Loop Manager - Update/Get Metrics
+2025-05-17 11:19:33,637 - test_runner - INFO - PASSED: Loop Manager - Remove Loop
+2025-05-17 11:19:33,637 - test_runner - INFO - Testing graph algorithms module
+2025-05-17 11:19:34,039 - test_runner - INFO - PASSED: Graph Algorithms - Johnson's Algorithm
+2025-05-17 11:19:34,039 - test_runner - INFO - PASSED: Graph Algorithms - Bellman-Ford Algorithm
+2025-05-17 11:19:34,039 - test_runner - INFO - PASSED: Graph Algorithms - Yen's K-Shortest Paths
+2025-05-17 11:19:34,039 - test_runner - INFO - Testing exchange wrapper modules
+2025-05-17 11:19:34,041 - test_runner - ERROR - FAILED: GateIO Wrapper Tests - No module named 'ccxt'
+2025-05-17 11:19:34,451 - test_runner - ERROR - FAILED: MEXC Wrapper Tests - No module named 'websockets'
+2025-05-17 11:19:34,452 - test_runner - ERROR - FAILED: Phemex Wrapper Tests - No module named 'ccxt'
+2025-05-17 11:19:34,453 - test_runner - ERROR - FAILED: Bitget Wrapper Tests - No module named 'ccxt'
+2025-05-17 11:19:34,454 - test_runner - INFO - Testing scanner modules
+2025-05-17 11:19:34,455 - test_runner - ERROR - FAILED: Basic Scanner Tests - No module named 'ccxt'
+2025-05-17 11:19:34,460 - test_runner - ERROR - FAILED: Optimized Scanner Tests - No module named 'ccxt'
+2025-05-17 11:19:34,476 - test_runner - ERROR - FAILED: Advanced Scanner Tests - No module named 'websockets'
+2025-05-17 11:19:34,482 - test_runner - ERROR - FAILED: ML Scanner Tests - No module named 'websockets'
+2025-05-17 11:19:34,483 - test_runner - INFO - Testing dashboard module
+2025-05-17 11:19:34,487 - test_runner - ERROR - FAILED: Dashboard Tests - No module named 'streamlit'
+2025-05-17 11:19:34,487 - test_runner - INFO - Testing integration between modules
+2025-05-17 11:19:34,488 - test_runner - ERROR - FAILED: Integration Tests - No module named 'websockets'
+2025-05-17 11:19:34,488 - test_runner - INFO - SKIPPED: Integration - End-to-End Flow
+2025-05-17 11:19:34,488 - test_runner - INFO - Test suite completed: 11 passed, 10 failed, 1 skipped
+2025-05-17 11:20:40,703 - test_runner - INFO - Starting test suite
+2025-05-17 11:20:40,703 - test_runner - INFO - Testing configuration module
+2025-05-17 11:20:40,704 - test_runner - INFO - PASSED: Config - Load API Keys
+2025-05-17 11:20:40,704 - test_runner - INFO - PASSED: Config - Default Algorithm Config
+2025-05-17 11:20:40,704 - test_runner - INFO - PASSED: Config - Save/Load Algorithm Config
+2025-05-17 11:20:40,704 - test_runner - INFO - Testing loop manager module
+2025-05-17 11:20:40,705 - test_runner - INFO - PASSED: Loop Manager - Add Loop
+2025-05-17 11:20:40,705 - test_runner - INFO - PASSED: Loop Manager - Get Loops
+2025-05-17 11:20:40,705 - test_runner - INFO - PASSED: Loop Manager - Get Loop Pairs
+2025-05-17 11:20:40,706 - test_runner - INFO - PASSED: Loop Manager - Update/Get Metrics
+2025-05-17 11:20:40,706 - test_runner - INFO - PASSED: Loop Manager - Remove Loop
+2025-05-17 11:20:40,706 - test_runner - INFO - Testing graph algorithms module
+2025-05-17 11:20:40,796 - test_runner - INFO - PASSED: Graph Algorithms - Johnson's Algorithm
+2025-05-17 11:20:40,796 - test_runner - INFO - PASSED: Graph Algorithms - Bellman-Ford Algorithm
+2025-05-17 11:20:40,796 - test_runner - INFO - PASSED: Graph Algorithms - Yen's K-Shortest Paths
+2025-05-17 11:20:40,796 - test_runner - INFO - Testing exchange wrapper modules
+2025-05-17 11:20:45,363 - test_runner - INFO - PASSED: GateIO Wrapper - Get Order Book
+2025-05-17 11:20:47,615 - test_runner - INFO - PASSED: GateIO Wrapper - Get Fee Rate
+2025-05-17 11:20:47,615 - test_runner - INFO - PASSED: GateIO Wrapper - WebSocket URL
+2025-05-17 11:20:47,616 - test_runner - INFO - PASSED: GateIO Wrapper - WebSocket Subscribe Message
+2025-05-17 11:20:47,903 - test_runner - INFO - PASSED: MEXC Wrapper - Get Order Book
+2025-05-17 11:20:47,904 - test_runner - INFO - PASSED: MEXC Wrapper - Get Fee Rate
+2025-05-17 11:20:47,904 - test_runner - INFO - PASSED: MEXC Wrapper - WebSocket URL
+2025-05-17 11:20:47,904 - test_runner - INFO - PASSED: MEXC Wrapper - WebSocket Subscribe Message
+2025-05-17 11:20:49,942 - test_runner - INFO - PASSED: Phemex Wrapper - Get Order Book
+2025-05-17 11:20:50,957 - test_runner - INFO - PASSED: Phemex Wrapper - Get Fee Rate
+2025-05-17 11:20:50,958 - test_runner - INFO - PASSED: Phemex Wrapper - WebSocket URL
+2025-05-17 11:20:50,958 - test_runner - INFO - PASSED: Phemex Wrapper - WebSocket Subscribe Message
+2025-05-17 11:20:52,790 - test_runner - INFO - PASSED: Bitget Wrapper - Get Order Book
+2025-05-17 11:20:53,745 - test_runner - INFO - PASSED: Bitget Wrapper - Get Fee Rate
+2025-05-17 11:20:53,745 - test_runner - INFO - PASSED: Bitget Wrapper - WebSocket URL
+2025-05-17 11:20:53,745 - test_runner - INFO - PASSED: Bitget Wrapper - WebSocket Subscribe Message
+2025-05-17 11:20:53,755 - test_runner - INFO - Testing scanner modules
+2025-05-17 11:20:58,818 - test_runner - INFO - PASSED: Basic Scanner - Check Profitability
+2025-05-17 11:20:58,824 - test_runner - ERROR - FAILED: Optimized Scanner Tests - OptimizedArbitrageScanner.scan_for_opportunities() missing 1 required positional argument: 'loops'
+2025-05-17 11:20:58,830 - advanced_scanner - INFO - Advanced Arbitrage Scanner initialized
+2025-05-17 11:21:05,034 - advanced_scanner - ERROR - Error checking loop ['ETH/USDT', 'XRP/ETH', 'XRP/USDT'] on gateio: Error fetching order book for XRP/ETH on GateIO: gateio does not have market symbol XRP/ETH
+2025-05-17 11:21:07,771 - test_runner - INFO - PASSED: Advanced Scanner - Scan For Opportunities
+2025-05-17 11:21:07,771 - test_runner - INFO - PASSED: Advanced Scanner - Loop Cache
+2025-05-17 11:21:07,772 - test_runner - INFO - PASSED: ML Scanner - Import
+2025-05-17 11:21:07,772 - test_runner - INFO - SKIPPED: ML Scanner - Execution
+2025-05-17 11:21:07,837 - test_runner - INFO - Testing dashboard module
+2025-05-17 11:21:09,434 - matplotlib.font_manager - INFO - Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: In FT2Font: Can not load face (unknown file format; error code 0x2)
+2025-05-17 11:21:09,498 - matplotlib.font_manager - INFO - generated new fontManager
+2025-05-17 11:21:10,079 - test_runner - ERROR - FAILED: Dashboard Tests - st.session_state has no attribute "algorithm". Did you forget to initialize it? More info: https://docs.streamlit.io/library/advanced-features/session-state#initialization
+2025-05-17 11:21:10,079 - test_runner - INFO - Testing integration between modules
+2025-05-17 11:21:10,085 - advanced_scanner - INFO - Advanced Arbitrage Scanner initialized
+2025-05-17 11:21:10,085 - test_runner - INFO - PASSED: Integration - Config with Scanner
+2025-05-17 11:21:10,086 - test_runner - ERROR - FAILED: Integration Tests - 'parallel_scanning'
+2025-05-17 11:21:10,086 - test_runner - INFO - SKIPPED: Integration - End-to-End Flow
+2025-05-17 11:21:10,086 - test_runner - INFO - Test suite completed: 32 passed, 3 failed, 2 skipped
